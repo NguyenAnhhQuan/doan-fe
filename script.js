@@ -74,7 +74,7 @@ var gaugeHumi = new JustGage({
 // setInterval(updateTime, 5000);
 
 setInterval(() => {
-  fetch('http://localhost:8888/product')
+  fetch(doan-d97kv03ko-nguyenanhhquan.vercel.app/product')
     .then(response => response.json())
     // .then(response => displayData(response.data))
     .then(response => changeGauge(response.data[0]))
