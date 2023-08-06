@@ -31,7 +31,7 @@
 //     //   document.getElementById("temperature").innerHTML = this.responseText;
 //     // }
 //   };
-//   xhttp.open("GET", "http://localhost:8888/product", true);
+//   xhttp.open("GET", "doan-d97kv03ko-nguyenanhhquan.vercel.app/product", true);
 //   xhttp.send();
 // }, 2000 ) ;
 
