@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Trang web hiển thị nhiệt độ và độ ẩm</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="navbar">
+    <h1>Đồng hồ đo nhiệt độ và độ ẩm</h1>
+  </div>
+  <div class="main">
+    <div id="time">Thời gian đo gần nhất:
+      <span id="hours"></span> :
+      <span id="minutes"></span> :
+      <span id="seconds"></span>
+    </div>
+    <div id="gaugeTempC" class="400x320px"></div>
+    <div id="gaugeHumi" class="400x320px"></div>
+  </div>
+  <script src="./raphael-2.1.4.min.js"></script>
+  <script src="./justgage.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
